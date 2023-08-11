@@ -27,7 +27,7 @@
                     <field name="state" widget="statusbar" statusbar_visible="draft,open"
                            statusbar_colors="{'pending':'blue'}" readonly="1"/>
                 </header>
-                <sheet string="Project">
+                
                     <div class="oe_title"/>
                     <group string="Assign tasks to" invisible="1">
                         <field name="name" class="oe_inline"/>
@@ -240,7 +240,7 @@
                             </group>
                         </page>
                     </notebook>
-                </sheet>
+               
             </form>
         </field>
     </record>
